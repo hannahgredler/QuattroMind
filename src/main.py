@@ -1,2 +1,4 @@
-print("Hello world")
-print("pull request")
+from game.game import Game
+
+game = Game()
+game.start_game()
